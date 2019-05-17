@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1> enter the text in the text box</h1>
+<input type="text" id ="mytext" value =" soemthing";
+<button onclick ="myfunction()"></button>
+<p id ="demo"> </p>
+
+<script>
+var x= document.getElementById("mytext").value;
+docuement.getElementById("demo").innerHTML=x;
+</script>
+
+</body>
+</html>
